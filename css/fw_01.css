@@ -1,0 +1,38 @@
+#image-text-pair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+button {
+    margin: auto;
+    background-color: red;
+    width: 300px;
+    height: 60px;
+    font-size: 25px;
+    color: azure;
+    position: absolute;
+    top: 15%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.header {
+    text-align: center;
+}
+
+.pw_text {
+    width: 400px;
+    height: 250px;
+    border: solid 2px black;
+    margin-left: 50px;
+}
+
+button.textContent {
+    font-size: 40px;
+}

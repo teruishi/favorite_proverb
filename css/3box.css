@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    line-height: 1.75;
+    font-size: 16px;
+    width: 960px;
+    background-color: ;
+    margin: auto;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    /* テキストを中央に配置 */
+    background-color: #f2f2f2;
+    /* ヘッダーの背景色を設定 */
+    padding: 10px;
+    /* ヘッダーの余白を設定 */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.kadomaru {
+    width: 300px;
+    height: 60px;
+    font-size: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px;
+    background: #6BCBF6;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.tb_result {
+    width: 800px;
+    height: 300px;
+    border: 1px black;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px;
+    background-color: yellow;
+    table-layout: fixed;
+    width: 100%;
+}
