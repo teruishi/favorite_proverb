@@ -28,9 +28,10 @@ button {
 
 .pw_text {
     width: 400px;
-    height: 250px;
+    height: 235px;
     border: solid 2px black;
     margin-left: 50px;
+    font-size: 18px;
 }
 
 button.textContent {
