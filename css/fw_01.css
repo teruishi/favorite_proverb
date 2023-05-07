@@ -9,11 +9,11 @@
 }
 
 button {
-    margin: 20px 200px 60px 50px;
-    background-color: red;
+    margin: 70px 200px 60px 50px;
     width: 300px;
     height: 60px;
     font-size: 25px;
+    background-color: red;
     color: azure;
     position: absolute;
     top: 15%;
@@ -22,15 +22,25 @@ button {
     z-index: 1;
 }
 
+
+
+
 .header {
     text-align: center;
+    background-color: gold;
+    margin: auto;
+    padding: 30px;
 }
 
 .pw_text {
-    width: 800px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 650px;
     height: 235px;
-    border: solid 2px black;
-    margin-left: 20px;
+    border: solid 10px black;
+    margin-left: 40px;
+    margin-right: 40px;
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -39,4 +49,9 @@ button {
 
 button.textContent {
     font-size: 40px;
+}
+
+.pw_text {
+    border: solid 10px peru;
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 3);
 }
