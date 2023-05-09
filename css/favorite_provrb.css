@@ -1,23 +1,20 @@
 .box_text {
-    width: 400px;
+    width: 300px;
     height: 233px;
     padding: 10px;
     border: solid 2px #404040;
     margin: 0 0 0 30px;
     /* 枠の色はここを変更 */
-    border-radius: 0.4em;
+    border-radius: 6px;
+    align-items: center;
 }
 
-.box_wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.fw_text {
+fw_text {
     width: 200px;
     height: 150px;
     font-size: 21px black;
     border: black;
     background-color: yellow;
     text-align: center;
+    align-items: center;
 }
